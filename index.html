@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-main-bg min-h-screen w-screen m-0 font-Outfit lg:overflow-x-hidden"
+  >
+    <main
+      class="min-h-screen flex flex-col justify-center items-center text-white mx-auto"
+    >
+      <section class="card">
+        <div class="image-wrapper relative">
+          <div class="view">
+            <img src="images/icon-view.svg" alt="" />
+          </div>
+          <img
+            class="nft w-100 rounded-xl z-50 hover:opacity-40"
+            src="images/image-equilibrium.jpg"
+            alt="Equilibrium NFT"
+          />
+        </div>
+
+        <article class="content mt-8 pb-4 border-b-[1px] border-b-line">
+          <h1
+            class="art-title font-semibold hover:text-cyan hover:cursor-pointer"
+          >
+            Equilibrium #3429
+          </h1>
+          <p class="font-normal text-soft-blue mt-4 text-[16px]">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <section class="sale-wrapper flex justify-between">
+            <section class="mt-4 inline-block">
+              <img class="inline-block" src="images/icon-ethereum.svg" alt="" />
+              <span class="ml-1.5 font-semibold text-cyan align-text-top">
+                0.041 ETH</span
+              >
+            </section>
+            <section class="mt-4 inline-block">
+              <img class="inline-block" src="images/icon-clock.svg" alt="" />
+              <span class="text-soft-blue align-middle"> 3 days left</span>
+            </section>
+          </section>
+        </article>
+
+        <section class="card-footer inline-block mt-4">
+          <img
+            class="avatar w-8 float-left clear-leftshadow-white rounded-full"
+            src="images/image-avatar.png"
+            alt=""
+          />
+          <span class="text-soft-blue ml-4 text-[16px]"
+            >Creation of
+            <span class="text-white hover:text-cyan hover:cursor-pointer"
+              >Jules Wyvern</span
+            ></span
+          >
+        </section>
+      </section>
+    </main>
+    <div class="attribution text-white mt-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.github.com/nerometa">nerometa</a>.
+    </div>
+  </body>
+</html>
