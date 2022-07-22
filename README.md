@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/solution-nft-preview-card-component-with-tailwind-css-FT8nAdUoQJ)
 - [Live Site URL](https://nerometa.github.io/nft-preview-card-chalenge/)
 
 ## My process
